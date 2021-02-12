@@ -1,6 +1,8 @@
 package main
 
 import (
+	//这里导入的是路径 操作系统的路径
+	"firstStart/lib"
 	"flag"
 )
 var name string
@@ -17,7 +19,8 @@ func main(){
 
 
 	flag.Parse()
-	hello(name)
+	//但是使用时是 该实体声明的包名下的实体
+	lib5.Hello(name)
 
 
 
