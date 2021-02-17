@@ -55,7 +55,7 @@ func main() {
 	fmt.Printf("str type %T str=%q\n", str, str)
 
 
-	//strconv包中有一个函数Itoa
+	//strconv包中有一个函数Itoa 能把整数直接转字符串
 	var num5 int64 = 4567
 	str = strconv.Itoa(int(num5))
 	fmt.Printf("str type %T str=%q\n", str, str)
